@@ -31,18 +31,18 @@ module.exports = {
         global.img = 'https://telegra.ph/file/0c567eac403737766688f.jpg'
         global.fla = pickRandom(global.flaaa)
         global.namabot = conn.user.name
-        global.packname = '© CUTE IQ-MD'
-        global.author = 'Made By Ziv San © 2022'
+        global.packname = 'Meldaa-MD'
+        global.author = 'Made By NainnOfc © 2022'
         global.packname2 = 'Made With'
-        global.author2 = 'Cute Bot By Ziv San © 2022'
-        global.wm3 = '·͟͟͟͟͟͟͞͞͞͞͞͞Made By Ziv San˚'
-        global.wm2 = '© CUTE IQ-MD' + ' ' + 'By Ziv San'
-        global.wm = '© CUTE IQ-MD'
-        global.colong1 = 'Ciss 📸'
-        global.colong2 = 'By Haori & Ziv San'
+        global.author2 = 'Meldaa Bot By NainnOfc© 2022'
+        global.wm3Â =Â 'Â·ÍŸÍŸÍžÍžÍŸÍŸÍžÍžÍŸÍŸÍžÍžMade By Ziv SanËš'
+        global.wm2 = 'Â© Meldaa-MD' + ' ' + 'By NainnOfc'
+        global.wm = 'Â© Meldaa-MD'
+        global.colong1 = 'Ciss ðŸ“¸'
+        global.colong2 = 'By NainnOfc & Dikaa'
         global.kontak2 = [
-        ['16199961931', 'Ziv San', 'Creator Bot', 'Zivsan@support.com', true],
-        ['6282179137771', 'CUTE IQ-MD', 'Bot WhatsApp', 'Just Bot', true]
+        ['16199961931', 'NainnOfc', 'Creator Bot', 'Nainn@support.com', true],
+        ['6288223674569', 'Meldaa-MD', 'Bot WhatsApp', 'Just Bot', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -776,18 +776,18 @@ fs.watchFile(file, () => {
 
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    let res = "Selamat malam 🌙"
+    let res = "Selamat malam ðŸŒ™"
     if (time >= 4) {
-        res = "Selamat pagi 🌄"
+        res = "Selamat pagi ðŸŒ„"
     }
     if (time > 10) {
-        res = "Selamat siang ☀️"
+        res = "Selamat siang â˜€ï¸"
     }
     if (time >= 15) {
-        res = "Selamat sore 🌅"
+        res = "Selamat sore ðŸŒ…"
     }
     if (time >= 18) {
-        res = "Selamat malam 🌙"
+        res = "Selamat malam ðŸŒ™"
     }
     return res
 }
